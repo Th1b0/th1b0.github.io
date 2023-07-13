@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Meet Thibo, a 17-year-old IT and networks student from Belgium with a passion for technology. Explore his expertise in backend and frontend development, IoT, and native Android and iOS app development."
+    />
+    <meta
+      name="keywords"
+      content="Thibo, IT student, networks student, Belgium, backend development, frontend development, IoT, Android app development, iOS app development, technology, innovative solutions"
+    />
+    <meta name="author" content="Thibo Kuijpers" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Thibo Kuijpers</title>
+  </head>
+
+  <body>
+    <section class="nav">
+      <div class="container reveal fade-bottom">
+        <div class="logo">
+          <a href="/">thibokuijpers<span>.be</span></a>
+        </div>
+        <div class="items">
+          <ul class="items_list">
+            <li class="item">
+              <a href="/">Home</a>
+            </li>
+            <li class="item">
+              <a href="#skills">Experience</a>
+            </li>
+            <li class="item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="item">
+              <a href="/shop">Shop</a>
+            </li>
+            <li class="item contact_btn"><a href="/contact">Contact</a></li>
+            <i onclick="openNav()" class="fa-solid fa-bars"></i>
+          </ul>
+        </div>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a onclick="closeNav()" href="/"><span>01.</span> Home</a>
+
+            <a onclick="closeNav()" href="#skills"
+              ><span>02.</span> Experience</a
+            >
+
+            <a onclick="closeNav()" href="#projects"
+              ><span>03.</span> Projects</a
+            >
+
+            <a onclick="closeNav()" href="/shop"><span>04.</span> Shop</a>
+            <a onclick="closeNav()" class="contact_btn" href="/contact"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container">
+        <div class="introduction">
+          <h1 class="reveal fade-bottom">
+            Hi, I'm <span>Thibo</span>!<br />I <span>make</span> things on the
+            <span>web</span>.
+          </h1>
+          <p class="reveal fade-bottom">
+            Clean code always looks like it was written by someone who cares.
+            <br />— Robert C. Martin
+          </p>
+        </div>
+        <div class="hero_btn reveal fade-bottom">
+          <a href="/contact">Contact</a>
+          <a href="#projects">Projects ></a>
+        </div>
+        <a href="#introduction">
+          <div class="arrow reveal fade-bottom">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="bg_container">
+      <section class="introduction" id="introduction">
+        <div class="container">
+          <h1 class="sec_title reveal fade-bottom h1_big">
+            Introduction<span>.</span>
+          </h1>
+          <div class="card reveal fade-bottom">
+            <img src="./person.svg" alt="An Illustration of a person" />
+            <h1 class="title">Who am I?</h1>
+            <p class="desc">
+              I'm <span>Thibo</span>, a 17-year-old
+              <span>IT and networks</span> student from Belgium. My passion lies
+              in the world of technology, particularly in the areas of
+              <span>backend</span> and <span>frontend development</span>,
+              <span>IoT</span>, and native <span>Android</span> and
+              <span>iOS</span> app development. I started programming when I was
+              12 with interest in discord bots with Javascript, since then I
+              have a strong <span>focus</span> on learning and
+              <span>expanding</span> my <span>skill</span> set. I strive to
+              create <span>innovative solutions</span>!
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="wave4">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <section class="skills">
+        <div class="container reveal fade-bottom">
+          <h1 class="sec_title sec_title" id="skills">
+            My Skills<span>.</span>
+          </h1>
+          <div class="cards">
+            <div class="card">
+              <img
+                src="./backend.svg"
+                alt="An Illustration of a backend server"
+              />
+              <h2 class="title">Backend.</h2>
+              <!--<p class="desc">
+              In <span>backend development</span>, I excel in
+              <span>TypeScript</span> and <span>minimal frameworks</span>,
+              creating scalable systems with clean, reliable code. My expertise
+              ensures high performance and smooth collaboration with frontend
+              teams, delivering tailored solutions with meticulous<span>
+                attention to detail</span>.
+            </p>-->
+              <h3 class="sub_title">Languages</h3>
+              <ul>
+                <li>Javascript,</li>
+                <li>Typescript,</li>
+                <li>Python,</li>
+              </ul>
+              <h3 class="sub_title">Frameworks</h3>
+              <ul class="frameworks">
+                <li>Express</li>
+                <li>Fastify</li>
+                <li>Flask</li>
+              </ul>
+              <h3 class="sub_title">Tools</h3>
+              <ul class="Tools">
+                <li>Mysql</li>
+                <li>MongoDB</li>
+                <li>VsCode</li>
+                <li>Node.js</li>
+                <li>Visual Studio</li>
+                <li>Git</li>
+                <li>Github</li>
+              </ul>
+            </div>
+            <div class="card">
+              <img
+                src="./frontend.svg"
+                alt="An Illustration of a frontend UI"
+              />
+              <h2 class="title">Frontend.</h2>
+              <!--<p class="desc">
+              Specializing in exceptional user experiences with
+              <span>TypeScript</span>, I prioritize performance optimization and
+              efficient, <span>feature-rich</span> solutions. With meticulous
+              attention to detail and <span>scalable</span> codebases, I foster
+              collaboration and create memorable digital experiences.
+            </p>-->
+              <h3 class="sub_title">Languages</h3>
+              <ul>
+                <li>HTML,</li>
+                <li>Scss,</li>
+                <li>css,</li>
+                <li>Javascript</li>
+              </ul>
+              <h3 class="sub_title">Frameworks</h3>
+              <ul class="frameworks">
+                <li>React</li>
+                <li>Vue</li>
+                <li>Svelte</li>
+                <li>Next</li>
+                <li>Bootstrap</li>
+                <li>Tailwind</li>
+              </ul>
+              <h3 class="sub_title">Tools</h3>
+              <ul class="Tools">
+                <li>Node.js</li>
+                <li>VsCode</li>
+                <li>Git</li>
+                <li>Github</li>
+              </ul>
+            </div>
+            <div class="card">
+              <img src="./phone.svg" alt="An Illustration of a smartphone" />
+              <h2 class="title">Android/Ios.</h2>
+              <!--<p class="desc">
+              Specializing in immersive <span>iOS</span> and
+              <span>Android</span> development, I leverage
+              <span>Kotlin</span> and <span>Swift</span> to create
+              <span>high-performance</span>,
+              <span>feature-rich</span> solutions. With meticulous attention to
+              detail and <span>scalable</span> codebases, I foster collaboration
+              and deliver memorable digital experiences.
+            </p>-->
+              <h3 class="sub_title">Languages</h3>
+              <ul>
+                <li>Kotlin,</li>
+                <li>Java,</li>
+                <li>Dart</li>
+              </ul>
+              <h3 class="sub_title">Frameworks</h3>
+              <ul class="frameworks">
+                <li>Flutter</li>
+              </ul>
+              <h3 class="sub_title">Tools</h3>
+              <ul class="Tools">
+                <li>Android Studio</li>
+                <li>Gradle</li>
+                <li>Android Debug Bridge</li>
+                <li>AVD Manager</li>
+                <li>Visual Studio</li>
+                <li>Git</li>
+                <li>Github</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="wave3">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+      <section class="projects">
+        <h1 class="reveal fade-bottom sec_title" id="projects">
+          My work<span>.</span>
+        </h1>
+        <p class="reveal fade-bottom">
+          Here are the latest websites and apps I have developed for individuals
+          and businesses. I highly encourage you to explore them and see what
+          they have to offer
+        </p>
+        <div class="container reveal fade-bottom">
+          <div class="cards">
+            <div class="card">
+              <p>Placeholder</p>
+            </div>
+            <div class="card">
+              <p>Placeholder</p>
+            </div>
+            <div class="card">
+              <p>Placeholder</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="wave">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section class="collab">
+      <div class="container reveal fade-bottom">
+        <h1 class="sec_title">Interested in working with me<span>?</span></h1>
+        <p>
+          Ready to create digital wonders together? Let's transform your ideas
+          into stunning websites or captivating mobile apps.
+        </p>
+        <a href="/contact"><i class="fa-regular fa-message"></i> Let's talk!</a>
+      </div>
+    </section>
+    <div class="wave2">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div>
+    <section class="startup">
+      <div class="container reveal fade-bottom">
+        <h1 class="sec_title">My own projects<span>.</span></h1>
+        <p class="">
+          In addition to my proficiency in crafting visually captivating
+          websites and applications for businesses and individuals, I am deeply
+          passionate about developing my own open-source solutions and enjoyable
+          experiences for users. By expanding my skill set across various fields
+          within the IT that pique my interest.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <p>Placeholder</p>
+          </div>
+          <div class="card">
+            <p>Placeholder</p>
+          </div>
+          <div class="card">
+            <p>Placeholder</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="contact reveal fade-bottom">
+          <h1>Invision your ideas</h1>
+          <p>Interested to work together? Let's drink a coffee and chat!</p>
+          <a href="/contact"
+            ><i class="fa-solid fa-lightbulb"></i> Let's innovate</a
+          >
+        </div>
+        <div class="footer_item reveal fade-bottom">
+          <h1>thibokuijpers.<span>be</span></h1>
+          <ul>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-solid fa-envelope"></i></li>
+          </ul>
+          <p>Proudly made by Thibo ©2023</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./bundle.js"></script>
+</html>
