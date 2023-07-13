@@ -1744,13 +1744,13 @@ module.exports = __webpack_require__.p + "backend.svg";
 
 /***/ }),
 
-/***/ "./src/img/banner.svg":
+/***/ "./src/img/banner.png":
 /*!****************************!*\
-  !*** ./src/img/banner.svg ***!
+  !*** ./src/img/banner.png ***!
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "banner.svg";
+module.exports = __webpack_require__.p + "banner.png";
 
 /***/ }),
 
@@ -1947,7 +1947,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_frontend_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/frontend.svg */ "./src/img/frontend.svg");
 /* harmony import */ var _img_person_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/person.svg */ "./src/img/person.svg");
 /* harmony import */ var _img_phone_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/phone.svg */ "./src/img/phone.svg");
-/* harmony import */ var _img_banner_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/banner.svg */ "./src/img/banner.svg");
+/* harmony import */ var _img_banner_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/banner.png */ "./src/img/banner.png");
 /* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/logo.png */ "./src/img/logo.png");
 
 
